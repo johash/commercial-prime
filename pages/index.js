@@ -1,8 +1,37 @@
 import Image from "next/image";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <div className="w-full h-screen">
+      <Head>
+        <title>Commercial Prime | Connect with Vogue</title>
+        <meta
+          name="description"
+          content="Get shared your contact details instantly with a Prime tap. Commercial Prime brings you an iconic impression to create stronger connections."
+        />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
+      </Head>
       <div className="w-full h-24 bg-white flex items-center justify-center shadow-sm">
         <div className="w-[165px] h-[44px] relative">
           <Image
@@ -26,9 +55,6 @@ export default function Home() {
         <span className="py-2 px-5 bg-black rounded-md">
           We&apos;re launching soon
         </span>
-      </div>
-      <div className="absolute bottom-0 text-[150px] opacity-5 lg:text-[200px] 2xl:text-[300px]">
-        <p>CP</p>
       </div>
     </div>
   );
