@@ -6,7 +6,7 @@ export default function Home() {
       <div className="w-full h-24 bg-white flex items-center justify-center shadow-sm">
         <div className="w-[165px] h-[44px] relative">
           <Image
-            src="/assets/logo.png "
+            src="/assets/logo.png"
             alt="Commercial Prime Logo"
             layout="fill"
           />
