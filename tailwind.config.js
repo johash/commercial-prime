@@ -8,6 +8,7 @@ module.exports = {
     fontFamily: {
       michroma: ["Michroma", "sans-serif"],
       inter: ["Inter", "sans-serif"],
+      ibm: ["IBM Plex Sans", "sans-serif"],
     },
     extend: {
       screens: {
