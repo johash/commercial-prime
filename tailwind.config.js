@@ -9,6 +9,11 @@ module.exports = {
       michroma: ["Michroma", "sans-serif"],
       inter: ["Inter", "sans-serif"],
     },
+    extend: {
+      screens: {
+        "3xl": "1920px",
+      },
+    },
   },
   plugins: [],
 };
