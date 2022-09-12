@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+
 import Button from "../UI/Button/Button";
 
 const Hero = () => {
@@ -27,6 +28,7 @@ const Hero = () => {
           <MdOutlineKeyboardArrowRight size={20} />
         </button>
       </div>
+
       <div className="absolute bottom-0 right-20">
         <div className="relative 2xl:w-[474px] 2xl:h-[585px] 3xl:w-[581px] 3xl:h-[717px]">
           <Image
