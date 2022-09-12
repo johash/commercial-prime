@@ -13,6 +13,7 @@ const Navbar = () => {
           layout="fixed"
           height={44}
           width={165}
+          priority={true}
         />
       </div>
       <ul className="list-none text-sm 2xl:flex 2xl:items-center 2xl:gap-10">

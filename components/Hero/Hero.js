@@ -35,6 +35,7 @@ const Hero = () => {
             src="/assets/png/phone-in-hand.png"
             alt="Phone in hand"
             layout="fill"
+            priority={true}
           />
         </div>
       </div>

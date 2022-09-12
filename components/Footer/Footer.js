@@ -12,7 +12,12 @@ const Footer = () => {
   return (
     <div className="bg-[#282828] w-full xl:h-[350px] md:flex md:flex-col md:items-center md:pt-14">
       <div className="relative w-[165px] h-[44px]">
-        <Image src="/assets/logo-footer.png" alt="footer logo" layout="fill" />
+        <Image
+          src="/assets/logo-footer.png"
+          alt="footer logo"
+          layout="fill"
+          priority={true}
+        />
       </div>
       <ul className="flex items-center gap-9 mt-9 text-white text-sm">
         <li>
