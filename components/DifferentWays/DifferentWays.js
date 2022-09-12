@@ -12,7 +12,12 @@ const DifferentWays = () => {
       <div className="flex items-center gap-[125px] justify-center py-16">
         <div className="flex flex-col items-center">
           <div className="relative w-16 h-16">
-            <Image src="/assets/icons/nfc.png" alt="nfc icon" layout="fill" />
+            <Image
+              src="/assets/icons/nfc.png"
+              alt="nfc icon"
+              layout="fill"
+              priority={true}
+            />
           </div>
           <p className="font-medium text-xl mt-6">NFC</p>
           <span className="text-xl opacity-50 mt-[2px]">Tap to connect</span>
@@ -23,12 +28,18 @@ const DifferentWays = () => {
               src="/assets/png/prime-card.png"
               alt="prime card"
               layout="fill"
+              priority={true}
             />
           </div>
         </div>
         <div className="flex flex-col items-center">
           <div className="relative w-16 h-16">
-            <Image src="/assets/icons/qr.png" alt="nfc icon" layout="fill" />
+            <Image
+              src="/assets/icons/qr.png"
+              alt="nfc icon"
+              layout="fill"
+              priority={true}
+            />
           </div>
           <p className="font-medium text-xl mt-6">QR</p>
           <span className="text-xl opacity-50 mt-[2px]">Scan to connect</span>
